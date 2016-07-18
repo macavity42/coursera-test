@@ -3,9 +3,15 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
+	font-size: 175%;
 	text-align: center;
 	margin-bottom: 15px;
+	text-align: center;
 }
 
 div.row>div {
@@ -14,7 +20,7 @@ div.row>div {
 
 div.row>div>div {
 	position: relative;
-	padding: 30px 15px 15px 15px;
+	padding: 35px 15px 15px 15px;
 	border: 1px solid black;
 }
 
@@ -24,9 +30,10 @@ div.row>div>div>div.title {
 	right: -1px;
 	border: 1px solid black;
 	padding: 3px;
-	width: 75px;
+	width: 100px;
 	font-weight: bold;
 	text-align: center;
+	font-size: 125%;
 }
 
 div.row>div:nth-child(1)>div {
