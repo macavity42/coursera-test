@@ -35,16 +35,8 @@ div.row>div>div>div.title {
 	font-size: 125%;
 }
 
-div.row>div:nth-child(1)>div {
+div.row>div>div {
 	background-color: #ffcc66;
-}
-
-div.row>div:nth-child(2)>div {
-	background-color: #ff9900;
-}
-
-div.row>div:nth-child(3)>div {
-	background-color: #ccffcc;
 }
 
 div.row>div:nth-child(1)>div>div {
@@ -56,7 +48,7 @@ div.row>div:nth-child(2)>div>div {
 }
 
 div.row>div:nth-child(3)>div>div {
-	background-color: #ffcc66;
+	background-color: #ccffcc;
 }
 
 /* Simple Responsive Framework. */
