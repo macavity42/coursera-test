@@ -11,7 +11,6 @@ h1 {
 	font-size: 175%;
 	text-align: center;
 	margin-bottom: 15px;
-	text-align: center;
 }
 
 div.row>div {
@@ -48,11 +47,6 @@ div.row>div:nth-child(3)>div {
 	background-color: #ccffcc;
 }
 
-/* Simple Responsive Framework. */
-.row {
-	width: 100%;
-}
-
 div.row>div:nth-child(1)>div>div {
 	background-color: #9999ff;
 }
@@ -63,6 +57,11 @@ div.row>div:nth-child(2)>div>div {
 
 div.row>div:nth-child(3)>div>div {
 	background-color: #ffcc66;
+}
+
+/* Simple Responsive Framework. */
+.row {
+	width: 100%;
 }
 
 /********** Desktop View **********/
