@@ -16,6 +16,10 @@ nav ul.navbar-nav li {
 	text-align: center;
 }
 
+nav ul.navbar-nav li:hover {
+	background-color: #ffee88;
+}
+
 nav ul.navbar-nav li:nth-child(1), nav ul.navbar-nav li:nth-child(2) {
 	border-bottom: 1px solid #e7e7e7;
 }
@@ -23,11 +27,13 @@ nav ul.navbar-nav li:nth-child(1), nav ul.navbar-nav li:nth-child(2) {
 #tallSection {
 	height: 1000px;
 	background-color: #ccffcc;
+	margin-top: 20px;
 	margin-bottom: 20px;
-	padding: 1px 15px 15px 15px;
+	padding: 10px 15px 15px 15px;
 }
 
 #tallSection h2 {
 	text-align: center;
 	font-size: 26px;
+	margin-top: 0px;
 }
