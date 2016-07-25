@@ -1,0 +1,33 @@
+body {
+	min-width: 180px;
+}
+
+nav>div {
+	background-color: #ffffcc
+}
+
+nav ul.navbar-nav {
+	background-color: #ffcc66;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+nav ul.navbar-nav li {
+	text-align: center;
+}
+
+nav ul.navbar-nav li:nth-child(1), nav ul.navbar-nav li:nth-child(2) {
+	border-bottom: 1px solid #e7e7e7;
+}
+
+#tallSection {
+	height: 1000px;
+	background-color: #ccffcc;
+	margin-bottom: 20px;
+	padding: 1px 15px 15px 15px;
+}
+
+#tallSection h2 {
+	text-align: center;
+	font-size: 26px;
+}
