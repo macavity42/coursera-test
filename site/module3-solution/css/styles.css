@@ -12,10 +12,6 @@ nav ul.navbar-nav {
 	margin-bottom: 0px;
 }
 
-nav ul.navbar-nav li {
-	text-align: center;
-}
-
 nav ul.navbar-nav li:hover {
 	background-color: #ffee88;
 }
@@ -25,7 +21,7 @@ nav ul.navbar-nav li:nth-child(1), nav ul.navbar-nav li:nth-child(2) {
 }
 
 #tallSection {
-	height: 1000px;
+	height: 1500px;
 	background-color: #ccffcc;
 	margin-top: 20px;
 	margin-bottom: 20px;
